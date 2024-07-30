@@ -172,13 +172,6 @@
         display: block;
     }
 
-    .tech-info {
-        display: none;
-    }
-    .tech-info svg {
-        display: block !important;
-    }
-
     .tech-info-1 svg .svg-circle{
         fill: #fcedcb;
     }
@@ -298,6 +291,8 @@
     }
     .main-title {
         font-size: 35px;
+        max-width: 415px;
+
     }
     .main-subtitle {
         max-width: 345px;
@@ -383,8 +378,8 @@
     }
     .slick-center .description {
         padding: 15px 15px;
-        left: -197px;
-        max-width: 568px;
+        left: -189px;
+        max-width: 562px;
     }
     .description-content {
         column-gap: 40px;
@@ -449,18 +444,33 @@
         column-gap: 20px;
         justify-content: start;
     }
+    .tech-info-4 {
+        left: 0;
+    }
+    .tech-info-5 {
+        left: 0;
+    }
+    .tech-info-4 svg{
+        left: 345px;
+    }
+    .tech-info-5 svg{
+        left: 340px;
+    }
+
 
 }
 @media screen and (max-width: 500px){
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .examples .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
     /*technologies*/
     .logo {
-        margin-left: 137px;
-    }
-    .tech-info-5 {
-        left: 580px;
-    }
-    .tech-info-4 {
-        left: 510px;
+        margin-left: 122px;
     }
     .tech-info-3 {
         left: 275px;
@@ -481,9 +491,6 @@
     }
     .main .container {
         display: unset;
-    }
-    .main-title{
-        max-width: 415px;
     }
     .main-info {
         display: unset;
@@ -516,20 +523,48 @@
         margin: unset;
     }
     .project-desc {
-        column-gap: 50px;
+        column-gap: 32px;
         justify-content: start;
     }
     .desc-circle {
         height: 85px;
         width: 85px;
     }
+    svg.desc-circle ellipse{
+        ry: 40px;
+        rx: 40px;
+        cy: 42.5px;
+        cx: 42.5px;
+    }
+    .desc-circle .desc-text {
+        font-size: 14px;
 
+    }
     .technologies{
         padding-top: 0;
     }
     .technologies-content img {
         width: 350px;
     }
+    .tech-info-1 svg {
+        left: 199px;
+    }
+    .tech-info-2 svg {
+        left: 222px;
+        bottom: 142px;
+    }
+    .tech-info-3{
+        top: 272px;
+    }
+    .tech-info-4 svg {
+        left: 265px;
+        bottom: 149px;
+    }
+    .tech-info-5 svg {
+        bottom: -12px;
+        left: 268px;
+    }
+
     .condition-type1 {
         padding: 20px 20px 20px 20px;
         margin-bottom: 20px;
@@ -543,26 +578,74 @@
     .excursion .container{
         padding-top: 94px;
     }
+    #nameInput, #phoneInput{
+        width: 300px;
+    }
+    #order-button {
+        width: 300px;
+    }
+    .custom-checkbox {
+        width: 300px;
+    }
+    .project-download-button {
+        width: 350px;
+        font-size: 16px;
+    }
+    .project-button {
+        width: 350px;
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .excursion-content,
+    .excursion-button{
+        width: 290px;
+    }
+    .excursion-text {
+        font-size: 16px;
+    }
 
+}
+@media screen and (max-width: 480px){
+    .slick-center .description{
+        /*margin-left: 171px;*/
+    }
+}
+@media screen and (max-width: 479px){
+    .logo {
+        margin-left: 111px;
+    }
+    .description-content{
+        margin-left: 157px;
+    }
 
 
 }
-
-
+@media screen and (max-width: 450px){
+    .logo {
+        margin-left: 96px;
+    }
+}
 @media screen and (max-width: 425px){
     .logo {
-        margin-left: 67px;
+        margin-left: 86px;
     }
     .main-title {
         font-size: 26px;
+        max-width: 309px;
     }
     .main-subtitle {
         font-size: 14px;
         max-width: 270px;
     }
-    .description-content{
-        margin-left: 88px;
-        column-gap: 10px;
+    .project-desc {
+        width: 290px;
+        margin-bottom: 35px;
+        column-gap: unset;
+        justify-content: space-between;
     }
     .example-desc .example-address{
         max-width: 137px;
@@ -573,9 +656,195 @@
     .example-house-num, .example-sizes-span {
         font-size: 14px;
     }
+    h2 {
+        font-size: 30px;
+    }
+    .projects-title {
+        margin-bottom: 40px;
+    }
+    .project-title{
+        font-size: 18px;
+    }
+    .proj-img-1 {
+        margin-bottom: 10px;
+    }
+    .proj-img-1 img, .order-image img {
+        width: 290px;
+    }
+    .proj-img-2 img, .proj-img-3 img, .proj-img-4 img {
+        width: 90px;
+    }
+    .project-text {
+        font-size: 14px;
+    }
+    .project-button {
+        width: 290px;
+        font-size: 16px;
+    }
+    .project-download-button {
+        width: 290px;
+        font-size: 15px;
+        box-sizing: border-box;
+    }
+    .technologies-title {
+        margin-bottom: 42px;
+    }
+    .technologies{
+        padding-bottom: 83px;
+    }
+    .tech-info-5 svg {
+        bottom: -5px;
+        left: 220px;
+    }
+    .tech-info-4 svg {
+        left: 209px;
+        bottom: 177px;
+    }
+    .tech-info-3 svg {
+        bottom: -9px;
+        left: -164px;
+    }
+    .tech-info-2 svg {
+        left: 207px;
+        bottom: 169px;
+    }
+    .tech-info-1 svg {
+        left: 169px;
+    }
+
+    .examples{
+        padding-top: 30px;
+    }
+    .examples-title {
+        width: 291px;}
+
+    .conditions{
+        padding-top: 30px;
+    }
+    .conditions-title{
+        margin-bottom: 40px;
+        max-width: 270px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .condition-type1 {
+        padding: 20px 12px 20px 12px;
+        margin-bottom: 20px;
+    }
+    .condition-type1-title, .condition-type2-title {
+        font-size: 16px;
+    }
+    .condition-type1-text {
+        font-size: 14px;
+    }
+    .condition-type1-icon img{
+        width: 35px;
+        height: 35px;
+    }
+    .condition-type2-icon{
+        width: 100px;
+        height: 100px;
+        margin-top: 40px;
+    }
+    .condition-type2-title {
+        font-size: 16px;
+    }
+    .condition-type2-text {
+        font-size: 16px;
+    }
+    .condition-type1-icon {
+        margin-right: 15px;
+    }
+    .project-download-button.condition-button{
+        font-size: 14px;
+        margin: 0 auto;
+    }
+    .order{
+        padding-top: 40px;
+    }
+    .order-image{
+        display: none;
+    }
+    #nameInput, #phoneInput{
+        width: 290px;
+    }
+    #order-button {
+        width: 290px;
+        height: 50px;
+        padding: 0;
+    }
+    .custom-checkbox {
+        width: 289px;
+    }
+    .excursion .container {
+        display: flex;
+        justify-content: center;
+    }
+    .excursion-content,
+    .excursion-button{
+        width: 290px;
+    }
+    .excursion-button{
+        height: 50px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    padding: 0;
+    .excursion-text {
+        font-size: 16px;
+    }
+    .excursion .container {
+        padding-bottom: 90px;
+    }
+    .technologies-content img {
+        width: 290px;
+    }
+    .footer-info-address,
+    .footer-info-workTime {
+        font-size: 16px;
+    }
 
 }
+@media screen and (max-width: 400px){
+    .logo {
+        margin-left: 74px;
+    }
+}
+@media screen and (max-width: 374px){
+    .logo {
+        margin-left: 65px;
+    }
+    .tech-info-1 svg {
+        left: 150px;
+    }
+    .tech-info-2 svg {
+        left: 191px;
+    }
+    .tech-info-3 svg {
+        left: -196px;
+    }
+    .tech-info-4 svg {
+        left: 175px;
+    }
+    .tech-info-5 svg {
+        bottom: 0;
+        left: 194px;
+    }
 
+
+}
+@media screen and (max-width: 350px){
+    .logo {
+        margin-left: 65px;
+    }
+    .description-content {
+        margin-left: 148px;
+    }
+
+}
 
 
 
