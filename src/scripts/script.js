@@ -196,9 +196,29 @@ $(document).ready(function () {
 
 
     // Плавный скролл
+    $('#technologiesScroll').click(function () {
+        $(".technologies").get(0).scrollIntoView({behavior: "smooth"});
+    })
+
     $('.scrollToOrder').click(function () {
         $("#order").get(0).scrollIntoView({behavior: "smooth"});
     })
+    $('#projectsScroll').click(function () {
+        $(".projects").get(0).scrollIntoView({behavior: "smooth"});
+    })
+    $('#conditionsScroll').click(function () {
+        $(".conditions").get(0).scrollIntoView({behavior: "smooth"});
+    })
+    $('#stepsScroll').click(function () {
+        $(".steps").get(0).scrollIntoView({behavior: "smooth"});
+    })
+
+
+
+
+
+
+
 
     // использование сторонних ресурсов
     $('.popup-gallery').magnificPopup({

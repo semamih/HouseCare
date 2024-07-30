@@ -280,6 +280,11 @@
     /*header*/
     .header .header-actions{
         visibility: hidden;
+        width: 40px;
+        height: 28px;
+    }
+    .logo {
+        margin-left: unset;
     }
     .menu{
         width: 170px;
@@ -377,7 +382,7 @@
         width: 400px;
     }
     .slick-center .description {
-        padding: 15px 15px;
+        padding: 9px 15px;
         left: -189px;
         max-width: 562px;
     }
@@ -460,6 +465,7 @@
 
 }
 @media screen and (max-width: 500px){
+
     .container {
         padding-left: 15px;
         padding-right: 15px;
@@ -468,10 +474,17 @@
         padding-right: 15px;
         padding-left: 15px;
     }
-    /*technologies*/
-    .logo {
-        margin-left: 122px;
+    /*menu*/
+    .menu-title {
+        color: #fff;
+        margin-top: 50px;
+        text-align: left;
     }
+
+
+
+
+    /*technologies*/
     .tech-info-3 {
         left: 275px;
     }
@@ -569,7 +582,9 @@
         padding: 20px 20px 20px 20px;
         margin-bottom: 20px;
     }
-
+    .conditions .project-download-button {
+        margin: 0 auto;
+    }
     .excursion-text {
         max-width: 311px;
         margin-left: auto;
@@ -609,30 +624,12 @@
     }
 
 }
-@media screen and (max-width: 480px){
-    .slick-center .description{
-        /*margin-left: 171px;*/
-    }
-}
 @media screen and (max-width: 479px){
-    .logo {
-        margin-left: 111px;
-    }
     .description-content{
         margin-left: 157px;
     }
-
-
-}
-@media screen and (max-width: 450px){
-    .logo {
-        margin-left: 96px;
-    }
 }
 @media screen and (max-width: 425px){
-    .logo {
-        margin-left: 86px;
-    }
     .main-title {
         font-size: 26px;
         max-width: 309px;
@@ -808,15 +805,7 @@
     }
 
 }
-@media screen and (max-width: 400px){
-    .logo {
-        margin-left: 74px;
-    }
-}
 @media screen and (max-width: 374px){
-    .logo {
-        margin-left: 65px;
-    }
     .tech-info-1 svg {
         left: 150px;
     }
@@ -837,9 +826,6 @@
 
 }
 @media screen and (max-width: 350px){
-    .logo {
-        margin-left: 65px;
-    }
     .description-content {
         margin-left: 148px;
     }
