@@ -1,5 +1,3 @@
-window.addEventListener('load', function() {
-
 $(document).ready(function () {
         let techInfo1024_1 = $('.tech-info-1024-1');
         let svgBorder = $('#svg-border');
@@ -261,5 +259,4 @@ $(document).ready(function () {
             }
         ).init();
 
-    })
-});
+})
