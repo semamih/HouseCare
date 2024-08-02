@@ -1,3 +1,4 @@
+window.addEventListener('load', function() {
 
 $(document).ready(function () {
         let techInfo1024_1 = $('.tech-info-1024-1');
@@ -261,3 +262,4 @@ $(document).ready(function () {
         ).init();
 
     })
+});

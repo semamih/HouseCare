@@ -329,17 +329,20 @@
     .technologies-content img {
         width: 460px;
     }
+
+    .tech-info-4 svg {
+        left: 426px;
+        bottom: 6px;
+    }
     .tech-info-5 svg {
+        left: 440px;
         bottom: -46px;
-        left: -265px;
     }
     .tech-info-4 {
-        left: 640px;
-        top: 387px;
+        left: 0;
     }
-    .tech-info-4 svg {
-        bottom: 76px;
-        left: -215px;
+    .tech-info-5 {
+        left: 0;
     }
     .tech-info-3 {
         left: 400px;
@@ -422,13 +425,21 @@
 
 
 }
+@media screen and (max-width: 745px) {
+    .tech-info-4 {
+        left: 0;
+    }
+    .tech-info-5 {
+        left: 0;
+    }
+}
 @media screen and (max-width: 700px) {
     /*technologies*/
-    .tech-info-5 {
-        left: 640px;
+    .tech-info-4 svg{
+        left: 366px;
     }
-    .tech-info-4 {
-        left: 570px;
+    .tech-info-5 svg {
+        left: 391px;
     }
     .tech-info-3 {
         left: 335px;
@@ -438,8 +449,11 @@
         top: 371px;
     }
     .tech-info-1 {
-        left: -263px;
+        left: 253px;
         top: 65px;
+    }
+    .tech-info-1 svg {
+        left: -250px;
     }
 }
 @media screen and (max-width: 630px){
@@ -449,17 +463,34 @@
         column-gap: 20px;
         justify-content: start;
     }
-    .tech-info-4 {
-        left: 0;
+    .tech-info-2 svg {
+        left: 161px;
     }
-    .tech-info-5 {
-        left: 0;
+    .tech-info-3 svg {
+        left: -170px;
     }
     .tech-info-4 svg{
-        left: 345px;
+        left: 330px;
     }
     .tech-info-5 svg{
-        left: 340px;
+        left: 360px;
+    }
+}
+@media screen and (max-width: 565px){
+    .tech-info-1 svg {
+        left: -310px;
+    }
+    .tech-info-2 svg {
+        left: 161px;
+    }
+    .tech-info-3 svg {
+        left: -193px;
+    }
+    .tech-info-4 svg{
+        left: 312px;
+    }
+    .tech-info-5 svg{
+        left: 328px;
     }
 
 
@@ -566,12 +597,13 @@
         left: 222px;
         bottom: 142px;
     }
-    .tech-info-3{
-        top: 272px;
+    .tech-info-3 svg {
+        left: -122px;
+        bottom: 57px;
     }
     .tech-info-4 svg {
-        left: 265px;
-        bottom: 149px;
+        left: 270px;
+        bottom: 76px;
     }
     .tech-info-5 svg {
         bottom: -12px;
@@ -628,6 +660,29 @@
     .description-content{
         margin-left: 157px;
     }
+}
+
+@media screen and (max-width: 450px){
+    .tech-info-1 svg {
+        left: 199px;
+    }
+    .tech-info-2 svg {
+        left: 222px;
+        bottom: 142px;
+    }
+    .tech-info-3 svg{
+        left: -142px;
+        bottom: 57px;
+    }
+    .tech-info-4 svg {
+        left: 250px;
+        bottom: 76px;
+    }
+    .tech-info-5 svg {
+        bottom: -12px;
+        left: 268px;
+    }
+
 }
 @media screen and (max-width: 425px){
     .main-title {
@@ -689,24 +744,25 @@
     .technologies{
         padding-bottom: 83px;
     }
-    .tech-info-5 svg {
-        bottom: -5px;
-        left: 220px;
-    }
-    .tech-info-4 svg {
-        left: 209px;
-        bottom: 177px;
-    }
-    .tech-info-3 svg {
-        bottom: -9px;
-        left: -164px;
+    .tech-info-1 svg {
+        left: 201px;
+        top: -39px;
     }
     .tech-info-2 svg {
-        left: 207px;
+        left: 222px;
         bottom: 169px;
     }
-    .tech-info-1 svg {
-        left: 169px;
+    .tech-info-3 svg{
+        left: -153px;
+        bottom: 109px;
+    }
+    .tech-info-4 svg {
+        left: 217px;
+        bottom: 107px;
+    }
+    .tech-info-5 svg {
+        bottom: -3px;
+        left: 229px;
     }
 
     .examples{
@@ -807,20 +863,24 @@
 }
 @media screen and (max-width: 374px){
     .tech-info-1 svg {
-        left: 150px;
+        left: 175px;
+        top: -39px;
     }
     .tech-info-2 svg {
-        left: 191px;
+        left: 206px;
+        bottom: 169px;
     }
-    .tech-info-3 svg {
-        left: -196px;
+    .tech-info-3 svg{
+        left: -177px;
+        bottom: 109px;
     }
     .tech-info-4 svg {
-        left: 175px;
+        left: 209px;
+        bottom: 107px;
     }
     .tech-info-5 svg {
-        bottom: 0;
-        left: 194px;
+        bottom: -3px;
+        left: 203px;
     }
 
 
@@ -829,6 +889,29 @@
     .description-content {
         margin-left: 148px;
     }
+}
+@media screen and (max-width: 345px){
+    .tech-info-1 svg {
+        left: 154px;
+        top: -39px;
+    }
+    .tech-info-2 svg {
+        left: 183px;
+        bottom: 169px;
+    }
+    .tech-info-3 svg{
+        left: -192px;
+        bottom: 109px;
+    }
+    .tech-info-4 svg {
+        left: 185px;
+        bottom: 107px;
+    }
+    .tech-info-5 svg {
+        bottom: -3px;
+        left: 180px;
+    }
+
 
 }
 
