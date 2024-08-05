@@ -1,4 +1,5 @@
-$(document).ready(function () {
+window.addEventListener('load', function() {
+    $(document).ready(function () {
         let techInfo1024_1 = $('.tech-info-1024-1');
         let svgBorder = $('#svg-border');
         let svgCircle = $('#svg-circle')
@@ -259,4 +260,5 @@ $(document).ready(function () {
             }
         ).init();
 
-})
+    })
+});

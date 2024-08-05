@@ -484,6 +484,7 @@ h2 {
 }
 
 .tech-info-1 svg {
+    overflow: hidden;
     position: absolute;
     top: -23px;
     left: 227px;
@@ -498,6 +499,7 @@ h2 {
 }
 
 .tech-info-2 svg {
+    overflow: hidden;
     position: absolute;
     bottom: -26px;
     left: 235px;
@@ -511,6 +513,7 @@ h2 {
 }
 
 .tech-info-3 svg {
+    overflow: hidden;
     position: absolute;
     bottom: -33px;
     left: -140px;
@@ -524,6 +527,7 @@ h2 {
 }
 
 .tech-info-4 svg {
+    overflow: hidden;
     position: absolute;
     bottom: -54px;
     left: -228px;
@@ -537,6 +541,7 @@ h2 {
 }
 
 .tech-info-5 svg {
+    overflow: hidden;
     position: absolute;
     bottom: -71px;
     left: -206px;

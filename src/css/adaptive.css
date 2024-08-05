@@ -548,6 +548,9 @@
     .proj-img-1 img, .order-image img {
         width: 350px;
     }
+    .proj-img-1 img{
+        height: 290px;
+    }
     .proj-img-2 img, .proj-img-3 img, .proj-img-4 img {
         width: 113px;
         height: 76px;
@@ -722,6 +725,9 @@
     }
     .proj-img-1 img, .order-image img {
         width: 290px;
+    }
+    .proj-img-1 img{
+        height: 182px;
     }
     .proj-img-2 img, .proj-img-3 img, .proj-img-4 img {
         width: 90px;
